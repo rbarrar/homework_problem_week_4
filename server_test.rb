@@ -1,9 +1,9 @@
 require 'sinatra'
 
 get '/' do
-  "Hello world"
+  open("public/hello.txt")
 end
 
-get "/sinatra" do
-  "Hello Sinatra"
-end
+# get "/sinatra" do
+#   "Hello Sinatra"
+# end
